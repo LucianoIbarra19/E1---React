@@ -1,0 +1,14 @@
+const Todo = () => {
+    return (
+        <div className="flex items-center justify-between w-96 p-4 bg-gray-700 rounded-lg">
+            <div className="flex items-center ">
+                <p className="pl-2">
+                    Todo Item
+                </p>
+            </div>
+            <img className="h-5 w-5 cursor-pointer transition-all duration-300 ease-in" src="/close-icon.svg" alt="Close-Icon"/>
+        </div>
+    )
+}
+
+export { Todo }
