@@ -1,7 +1,12 @@
-const TodoContext = ({ children }) => {
+import { Todo } from "../Todo/Todo"
+import { TodoInput } from "../TodoInput/ToDoInput"
+
+const TodoContext = () => {
     return (
-        <div className="flex flex-col mt-7 rounded-lg overflow-hidden shadow-2xl">
-            { children }
+        <div>
+            Container
+            <TodoInput />
+            <Todo />
         </div>
     )
 }

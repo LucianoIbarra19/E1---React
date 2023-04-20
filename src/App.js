@@ -1,7 +1,6 @@
 import React from "react";
 import { Title } from "./components/titles";
 import { TodoInput } from "./components/TodoInput/ToDoInput";
-
 import { TodoContext } from "./components/todoContext";
 import { Todo } from "./components/Todo";
 
